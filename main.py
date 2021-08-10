@@ -16,6 +16,7 @@ actions = ActionChains(driver)
 # DECLARE ALL OF THE JANK ASS FUNCTIONS #
 #########################################
 
+### input the weblink F12 to get it ###
 def start_program():
     driver.get("https://fjhoneycomb.steadylogic.com/?lang=en-US&sessionKey=3a2c661aeaf50d0ffaa6dd7d37019081")
 
@@ -117,6 +118,8 @@ cease_algorithm = False
 #maximum_order_size = 0.5
 kelly_bet = 0.1
 last_round_bet = True
+
+### change the username to your username ###
 user = 'martingaleFTW'
 new_round = True
 portfolio_value = []
